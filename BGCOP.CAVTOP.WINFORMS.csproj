@@ -1,0 +1,697 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <ProjectGuid>{67AF50D1-07E1-483C-AFB0-C793E56D3143}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <AssemblyName>BGCOP.CAVTOP.WINFORMS</AssemblyName>
+    <OutputType>WinExe</OutputType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <Optimize>false</Optimize>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>false</DebugSymbols>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>pdbonly</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System" />
+    <Reference Include="Telerik.WinControls.GridView">
+      <HintPath>.\BGCOP.CAVTOP.WINFORMSReferences\Telerik.WinControls.GridView.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.WinControls.UI">
+      <HintPath>.\BGCOP.CAVTOP.WINFORMSReferences\Telerik.WinControls.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs">
+      <HintPath>.\BGCOP.CAVTOP.WINFORMSReferences\Microsoft.VisualBasic.PowerPacks.Vs.dll</HintPath>
+    </Reference>
+    <Reference Include="WebCAM">
+      <HintPath>.\BGCOP.CAVTOP.WINFORMSReferences\WebCAM.dll</HintPath>
+    </Reference>
+    <Reference Include="BGCOP.CAVTOP.COMMON">
+      <HintPath>.\BGCOP.CAVTOP.WINFORMSReferences\BGCOP.CAVTOP.COMMON.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.Office2010Black">
+      <HintPath>.\BGCOP.CAVTOP.WINFORMSReferences\Telerik.WinControls.Themes.Office2010Black.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.Office2010Blue">
+      <HintPath>.\BGCOP.CAVTOP.WINFORMSReferences\Telerik.WinControls.Themes.Office2010Blue.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.Windows7">
+      <HintPath>.\BGCOP.CAVTOP.WINFORMSReferences\Telerik.WinControls.Themes.Windows7.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.TelerikMetroBlue">
+      <HintPath>.\BGCOP.CAVTOP.WINFORMSReferences\Telerik.WinControls.Themes.TelerikMetroBlue.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.Desert">
+      <HintPath>.\BGCOP.CAVTOP.WINFORMSReferences\Telerik.WinControls.Themes.Desert.dll</HintPath>
+    </Reference>
+    <Reference Include="BGCOP.CAVTOP.INNERDEFS">
+      <HintPath>.\BGCOP.CAVTOP.WINFORMSReferences\BGCOP.CAVTOP.INNERDEFS.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.Office2007Black">
+      <HintPath>.\BGCOP.CAVTOP.WINFORMSReferences\Telerik.WinControls.Themes.Office2007Black.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.Breeze">
+      <HintPath>.\BGCOP.CAVTOP.WINFORMSReferences\Telerik.WinControls.Themes.Breeze.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.WinControls.Themes.Office2007Silver">
+      <HintPath>.\BGCOP.CAVTOP.WINFORMSReferences\Telerik.WinControls.Themes.Office2007Silver.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.Office2010Silver">
+      <HintPath>.\BGCOP.CAVTOP.WINFORMSReferences\Telerik.WinControls.Themes.Office2010Silver.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.TelerikMetro">
+      <HintPath>.\BGCOP.CAVTOP.WINFORMSReferences\Telerik.WinControls.Themes.TelerikMetro.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.WinControls.RadDock">
+      <HintPath>.\BGCOP.CAVTOP.WINFORMSReferences\Telerik.WinControls.RadDock.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="Telerik.WinControls">
+      <HintPath>.\BGCOP.CAVTOP.WINFORMSReferences\Telerik.WinControls.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <Reference Include="System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="TelerikData">
+      <HintPath>.\BGCOP.CAVTOP.WINFORMSReferences\TelerikData.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="TelerikCommon">
+      <HintPath>.\BGCOP.CAVTOP.WINFORMSReferences\TelerikCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\Program.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\masterDBACDataSetTableAdapters\TipoVehiculoTableAdapter.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\masterDBACDataSetTableAdapters\TCargoTableAdapter.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\masterDBACDataSetTableAdapters\TTipoUsuarioTableAdapter.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\Properties\Resources.Designer.cs">
+      <AutoGen>true</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTimeSharedInput>true</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\masterDBACDataSetTableAdapters\TinnerTableAdapter.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\masterDBACDataSetTableAdapters\TRegistroEmpleadoTableAdapter.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\masterDBACDataSetTableAdapters\TEmpresaTableAdapter.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\masterDBACDataSetTableAdapters\TVisitanteVisitaProgramadaTableAdapter.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\masterDBACDataSetTableAdapters\TMarcaVehiculoTableAdapter.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\masterDBACDataSetTableAdapters\TInnerAccionTableAdapter.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\masterDBACDataSetTableAdapters\TDiasHorarioTableAdapter.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\masterDBACDataSetTableAdapters\TEmpresaVisitanteTableAdapter.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\masterDBACDataSetTableAdapters\TUsuarioTableAdapter.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\masterDBACDataSetTableAdapters\TModeloVehiculoTableAdapter.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\masterDBACDataSetTableAdapters\TRegistroVehiculoTableAdapter.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\masterDBACDataSetTableAdapters\TEstadoTableAdapter.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\masterDBACDataSetTableAdapters\TDivisionEmpresaTableAdapter.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\masterDBACDataSetTableAdapters\TMarcacionTableAdapter.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\masterDBACDataSetTableAdapters\TVisitaProgramadaTableAdapter.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\masterDBACDataSetTableAdapters\TPanelTableAdapter.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\masterDBACDataSetTableAdapters\TFestivosTableAdapter.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\masterDBACDataSetTableAdapters\TableAdapterManager.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\masterDBACDataSetTableAdapters\viEmpleadoTableAdapter.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\masterDBACDataSetTableAdapters\TVehiculoTableAdapter.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\masterDBACDataSetTableAdapters\viParqueoVehiculoTableAdapter.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\frmtlk\MyEnglishRadGridLocalizationProvider.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\masterDBACDataSetTableAdapters\viVehiculoTableAdapter.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\masterDBACDataSetTableAdapters\TTarjetaTableAdapter.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\masterDBACDataSetTableAdapters\TParqueoTableAdapter.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\masterDBACDataSetTableAdapters\THorarioTableAdapter.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\masterDBACDataSetTableAdapters\TRegistroVehiculo1TableAdapter.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\masterDBACDataSetTableAdapters\TEmpleadoTableAdapter.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\masterDBACDataSetTableAdapters\TTipoIdentificacionTableAdapter.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\masterDBACDataSetTableAdapters\TTipoRegistroTableAdapter.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\masterDBACDataSetTableAdapters\TvehiculoParqueoTableAdapter.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\masterDBACDataSetTableAdapters\TEmpleadoVehiculoTableAdapter.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\masterDBACDataSetTableAdapters\TVisitanteVisitaProgramadaLogTableAdapter.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\frmPrincipal.Designer.cs">
+      <AutoGen>true</AutoGen>
+      <DependentUpon>frmPrincipal.resx</DependentUpon>
+      <DesignTimeSharedInput>true</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\masterDBACDataSetTableAdapters\TVisitanteTableAdapter.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\frmLogIn.Designer.cs">
+      <AutoGen>true</AutoGen>
+      <DependentUpon>frmLogIn.resx</DependentUpon>
+      <DesignTimeSharedInput>true</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\Properties\Settings.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\masterDBACDataSet.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\frmInnerMaestro.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\frmConsultaVi.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\frmListadoVehiculosParqueo.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\frmVisitaProgramadaOK.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\frmLimpiaTarjeta.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\frmVehiculo.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\frmTipoVehiculo.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\frmVisitaProgramada.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\frmInnerRuntime.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\frmEmpleado.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\frmParqueos.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\frmVisitaProgramadaOk_2.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\frmVisitante2.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\frmTipoIdentificacion.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\frmMarcacionesVisitantes.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\frmModeloVehiculo.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\frmAsignaParqueo2.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\frmTarjetas.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\frmReporteMarcacionesVisitantes.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\frmHorarioDetail.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\frmListadoEmpleados.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\frmDivisionesEmpresa.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\frmEmpleadoOk.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\frmModeloVehiculo2.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\frmMarcacionesEmpleados.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\frmEmpresa.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\frmAsignaParqueo.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\frmCamara.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\Form2.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\frmTipoUsuario.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\frmHorario.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\Form3.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\frmUsuario.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\frmEstadosEmpleado.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\Form1.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\frmReporteMarcacionesEmpleado.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\frmVehiculoEmpleado.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\frmCargo.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\frmLiberaParqueo.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\frmReporteMarcacionesVehiculo.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\frmVisitante.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\frmPruebaFuentecs.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BGCOP.CAVTOP.WINFORMS\frmMarcaVehiculo.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="BGCOP.CAVTOP.WINFORMS\frmInnerMaestro.resx">
+      <DependentUpon>frmInnerMaestro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BGCOP.CAVTOP.WINFORMS\frmConsultaVi.resx">
+      <DependentUpon>frmConsultaVi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BGCOP.CAVTOP.WINFORMS\frmListadoVehiculosParqueo.resx">
+      <DependentUpon>frmListadoVehiculosParqueo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BGCOP.CAVTOP.WINFORMS\frmVisitaProgramadaOK.resx">
+      <DependentUpon>frmVisitaProgramadaOK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BGCOP.CAVTOP.WINFORMS\frmLimpiaTarjeta.resx">
+      <DependentUpon>frmLimpiaTarjeta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BGCOP.CAVTOP.WINFORMS\frmVehiculo.resx">
+      <DependentUpon>frmVehiculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BGCOP.CAVTOP.WINFORMS\frmTipoVehiculo.resx">
+      <DependentUpon>frmTipoVehiculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BGCOP.CAVTOP.WINFORMS\frmVisitaProgramada.resx">
+      <DependentUpon>frmVisitaProgramada.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BGCOP.CAVTOP.WINFORMS\frmInnerRuntime.resx">
+      <DependentUpon>frmInnerRuntime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BGCOP.CAVTOP.WINFORMS\frmEmpleado.resx">
+      <DependentUpon>frmEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BGCOP.CAVTOP.WINFORMS\frmParqueos.resx">
+      <DependentUpon>frmParqueos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BGCOP.CAVTOP.WINFORMS\frmVisitaProgramadaOk_2.resx">
+      <DependentUpon>frmVisitaProgramadaOk_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BGCOP.CAVTOP.WINFORMS\frmVisitante2.resx">
+      <DependentUpon>frmVisitante2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BGCOP.CAVTOP.WINFORMS\frmTipoIdentificacion.resx">
+      <DependentUpon>frmTipoIdentificacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BGCOP.CAVTOP.WINFORMS\frmMarcacionesVisitantes.resx">
+      <DependentUpon>frmMarcacionesVisitantes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BGCOP.CAVTOP.WINFORMS\frmModeloVehiculo.resx">
+      <DependentUpon>frmModeloVehiculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BGCOP.CAVTOP.WINFORMS\frmAsignaParqueo2.resx">
+      <DependentUpon>frmAsignaParqueo2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BGCOP.CAVTOP.WINFORMS\frmTarjetas.resx">
+      <DependentUpon>frmTarjetas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BGCOP.CAVTOP.WINFORMS\frmReporteMarcacionesVisitantes.resx">
+      <DependentUpon>frmReporteMarcacionesVisitantes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BGCOP.CAVTOP.WINFORMS\frmHorarioDetail.resx">
+      <DependentUpon>frmHorarioDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BGCOP.CAVTOP.WINFORMS\frmListadoEmpleados.resx">
+      <DependentUpon>frmListadoEmpleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BGCOP.CAVTOP.WINFORMS\frmDivisionesEmpresa.resx">
+      <DependentUpon>frmDivisionesEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BGCOP.CAVTOP.WINFORMS\frmEmpleadoOk.resx">
+      <DependentUpon>frmEmpleadoOk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BGCOP.CAVTOP.WINFORMS\frmModeloVehiculo2.resx">
+      <DependentUpon>frmModeloVehiculo2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BGCOP.CAVTOP.WINFORMS\frmMarcacionesEmpleados.resx">
+      <DependentUpon>frmMarcacionesEmpleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BGCOP.CAVTOP.WINFORMS\frmEmpresa.resx">
+      <DependentUpon>frmEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BGCOP.CAVTOP.WINFORMS\frmAsignaParqueo.resx">
+      <DependentUpon>frmAsignaParqueo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BGCOP.CAVTOP.WINFORMS\frmCamara.resx">
+      <DependentUpon>frmCamara.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BGCOP.CAVTOP.WINFORMS\Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BGCOP.CAVTOP.WINFORMS\frmTipoUsuario.resx">
+      <DependentUpon>frmTipoUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BGCOP.CAVTOP.WINFORMS\frmHorario.resx">
+      <DependentUpon>frmHorario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BGCOP.CAVTOP.WINFORMS\Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BGCOP.CAVTOP.WINFORMS\frmUsuario.resx">
+      <DependentUpon>frmUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BGCOP.CAVTOP.WINFORMS\frmEstadosEmpleado.resx">
+      <DependentUpon>frmEstadosEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BGCOP.CAVTOP.WINFORMS\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BGCOP.CAVTOP.WINFORMS\frmReporteMarcacionesEmpleado.resx">
+      <DependentUpon>frmReporteMarcacionesEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BGCOP.CAVTOP.WINFORMS\frmVehiculoEmpleado.resx">
+      <DependentUpon>frmVehiculoEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BGCOP.CAVTOP.WINFORMS\frmCargo.resx">
+      <DependentUpon>frmCargo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BGCOP.CAVTOP.WINFORMS\frmLiberaParqueo.resx">
+      <DependentUpon>frmLiberaParqueo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BGCOP.CAVTOP.WINFORMS\frmReporteMarcacionesVehiculo.resx">
+      <DependentUpon>frmReporteMarcacionesVehiculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BGCOP.CAVTOP.WINFORMS\frmVisitante.resx">
+      <DependentUpon>frmVisitante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BGCOP.CAVTOP.WINFORMS\frmPruebaFuentecs.resx">
+      <DependentUpon>frmPruebaFuentecs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BGCOP.CAVTOP.WINFORMS\frmMarcaVehiculo.resx">
+      <DependentUpon>frmMarcaVehiculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BGCOP.CAVTOP.WINFORMS\Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BGCOP.CAVTOP.WINFORMS\frmPrincipal.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>frmPrincipal.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BGCOP.CAVTOP.WINFORMS\frmLogIn.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>frmLogIn.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="DLLWEB\BARCOD39.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="DLLWEB\code128.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="DLLWEB\EAN-13.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="DLLWEB\fre3of9x.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="DLLWEB\free3of9.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DLLWEB\WebCAM.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="EasyInner.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Inner2K.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="InnerPendrive.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="InnerTCPLib.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Interop.NBioBSPCOMLib.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Microsoft.CSharp.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Microsoft.VisualBasic.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Microsoft.VisualBasic.PowerPacks.Vs.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="BGCOP.CAVTOP.BUSINESSLAYER.csproj">
+      <Project>{1c21cd80-0ac3-4db8-ac60-d87417b7aecd}</Project>
+      <Name>BGCOP.CAVTOP.BUSINESSLAYER</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,13 @@
+G:\soluciones\NH4\obj\Debug\BGCOP.CAVTOP.BUSINESSLAYER.csprojResolveAssemblyReference.cache
+G:\soluciones\NH4\obj\Debug\BGCOP.CAVTOP.BUSINESSLAYER.Properties.Resources.resources
+G:\soluciones\NH4\obj\Debug\BGCOP.CAVTOP.BUSINESSLAYER.csproj.GenerateResource.Cache
+C:\Soluciones\ed proteccion\NH4\obj\Debug\BGCOP.CAVTOP.BUSINESSLAYER.csproj.AssemblyReference.cache
+C:\Soluciones\ed proteccion\NH4\obj\Debug\BGCOP.CAVTOP.BUSINESSLAYER.Properties.Resources.resources
+C:\Soluciones\ed proteccion\NH4\obj\Debug\BGCOP.CAVTOP.BUSINESSLAYER.csproj.GenerateResource.cache
+C:\Soluciones\ed proteccion\NH4\obj\Debug\BGCOP.CAVTOP.BUSINESSLAYER.csproj.CoreCompileInputs.cache
+C:\Soluciones\ed proteccion\NH4\bin\Debug\BGCOP.CAVTOP.BUSINESSLAYER.dll
+C:\Soluciones\ed proteccion\NH4\bin\Debug\BGCOP.CAVTOP.BUSINESSLAYER.pdb
+C:\Soluciones\ed proteccion\NH4\bin\Debug\BGCOP.CAVTOP.COMMON.dll
+C:\Soluciones\ed proteccion\NH4\obj\Debug\BGCOP.CAVTOP.BUSINESSLAYER.csproj.CopyComplete
+C:\Soluciones\ed proteccion\NH4\obj\Debug\BGCOP.CAVTOP.BUSINESSLAYER.dll
+C:\Soluciones\ed proteccion\NH4\obj\Debug\BGCOP.CAVTOP.BUSINESSLAYER.pdb

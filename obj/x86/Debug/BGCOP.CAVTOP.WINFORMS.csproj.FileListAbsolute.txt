@@ -1,0 +1,176 @@
+G:\soluciones\NH4\bin\Debug\BGCOP.CAVTOP.WINFORMS.exe.config
+G:\soluciones\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmInnerMaestro.resources
+G:\soluciones\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmConsultaVi.resources
+G:\soluciones\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmListadoVehiculosParqueo.resources
+G:\soluciones\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmVisitaProgramadaOK.resources
+G:\soluciones\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmLimpiaTarjeta.resources
+G:\soluciones\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmVehiculo.resources
+G:\soluciones\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmTipoVehiculo.resources
+G:\soluciones\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmVisitaProgramada.resources
+G:\soluciones\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmInnerRuntime.resources
+G:\soluciones\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmEmpleado.resources
+G:\soluciones\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmParqueos.resources
+G:\soluciones\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmVisitaProgramadaOk_2.resources
+G:\soluciones\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmVisitante2.resources
+G:\soluciones\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmTipoIdentificacion.resources
+G:\soluciones\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmMarcacionesVisitantes.resources
+G:\soluciones\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmModeloVehiculo.resources
+G:\soluciones\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmAsignaParqueo2.resources
+G:\soluciones\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmTarjetas.resources
+G:\soluciones\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmReporteMarcacionesVisitantes.resources
+G:\soluciones\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmHorarioDetail.resources
+G:\soluciones\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmListadoEmpleados.resources
+G:\soluciones\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmDivisionesEmpresa.resources
+G:\soluciones\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmEmpleadoOk.resources
+G:\soluciones\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmModeloVehiculo2.resources
+G:\soluciones\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmMarcacionesEmpleados.resources
+G:\soluciones\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmEmpresa.resources
+G:\soluciones\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmAsignaParqueo.resources
+G:\soluciones\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmCamara.resources
+G:\soluciones\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.Form2.resources
+G:\soluciones\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmTipoUsuario.resources
+G:\soluciones\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmHorario.resources
+G:\soluciones\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.Form3.resources
+G:\soluciones\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmUsuario.resources
+G:\soluciones\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmEstadosEmpleado.resources
+G:\soluciones\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.Form1.resources
+G:\soluciones\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmReporteMarcacionesEmpleado.resources
+G:\soluciones\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmVehiculoEmpleado.resources
+G:\soluciones\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmCargo.resources
+G:\soluciones\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmLiberaParqueo.resources
+G:\soluciones\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmReporteMarcacionesVehiculo.resources
+G:\soluciones\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmVisitante.resources
+G:\soluciones\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmPruebaFuentecs.resources
+G:\soluciones\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmMarcaVehiculo.resources
+G:\soluciones\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.Properties.Resources.resources
+G:\soluciones\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmPrincipal.resources
+G:\soluciones\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmLogIn.resources
+G:\soluciones\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.csproj.GenerateResource.Cache
+G:\soluciones\NH4\bin\Debug\BGCOP.CAVTOP.WINFORMS.exe
+G:\soluciones\NH4\bin\Debug\BGCOP.CAVTOP.WINFORMS.pdb
+G:\soluciones\NH4\bin\Debug\BGCOP.CAVTOP.BUSINESSLAYER.dll
+G:\soluciones\NH4\bin\Debug\BGCOP.CAVTOP.COMMON.dll
+G:\soluciones\NH4\bin\Debug\BGCOP.CAVTOP.INNERDEFS.dll
+G:\soluciones\NH4\bin\Debug\Telerik.WinControls.dll
+G:\soluciones\NH4\bin\Debug\Telerik.WinControls.GridView.dll
+G:\soluciones\NH4\bin\Debug\Telerik.WinControls.RadDock.dll
+G:\soluciones\NH4\bin\Debug\Telerik.WinControls.Themes.Breeze.dll
+G:\soluciones\NH4\bin\Debug\Telerik.WinControls.Themes.Desert.dll
+G:\soluciones\NH4\bin\Debug\Telerik.WinControls.Themes.Office2007Black.dll
+G:\soluciones\NH4\bin\Debug\Telerik.WinControls.Themes.Office2007Silver.dll
+G:\soluciones\NH4\bin\Debug\Telerik.WinControls.Themes.Office2010Black.dll
+G:\soluciones\NH4\bin\Debug\Telerik.WinControls.Themes.Office2010Blue.dll
+G:\soluciones\NH4\bin\Debug\Telerik.WinControls.Themes.Office2010Silver.dll
+G:\soluciones\NH4\bin\Debug\Telerik.WinControls.Themes.TelerikMetro.dll
+G:\soluciones\NH4\bin\Debug\Telerik.WinControls.Themes.TelerikMetroBlue.dll
+G:\soluciones\NH4\bin\Debug\Telerik.WinControls.Themes.Windows7.dll
+G:\soluciones\NH4\bin\Debug\Telerik.WinControls.UI.dll
+G:\soluciones\NH4\bin\Debug\TelerikCommon.dll
+G:\soluciones\NH4\bin\Debug\TelerikData.dll
+G:\soluciones\NH4\bin\Debug\WebCAM.dll
+G:\soluciones\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.exe
+G:\soluciones\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.pdb
+G:\soluciones\NH4\bin\Debug\EasyInner.dll
+G:\soluciones\NH4\bin\Debug\Inner2K.dll
+G:\soluciones\NH4\bin\Debug\InnerPendrive.dll
+G:\soluciones\NH4\bin\Debug\InnerTCPLib.dll
+G:\soluciones\NH4\bin\Debug\Interop.NBioBSPCOMLib.dll
+G:\soluciones\NH4\bin\Debug\Microsoft.CSharp.dll
+G:\soluciones\NH4\bin\Debug\Microsoft.VisualBasic.dll
+G:\soluciones\NH4\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+G:\soluciones\NH4\bin\Debug\DLLWEB\WebCAM.dll
+G:\soluciones\NH4\bin\Debug\DLLWEB\BARCOD39.TTF
+G:\soluciones\NH4\bin\Debug\DLLWEB\code128.ttf
+G:\soluciones\NH4\bin\Debug\DLLWEB\EAN-13.TTF
+G:\soluciones\NH4\bin\Debug\DLLWEB\fre3of9x.ttf
+G:\soluciones\NH4\bin\Debug\DLLWEB\free3of9.ttf
+G:\soluciones\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.csproj.CoreCompileInputs.cache
+G:\soluciones\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.csproj.CopyComplete
+C:\Soluciones\ed proteccion\NH4\bin\Debug\DLLWEB\WebCAM.dll
+C:\Soluciones\ed proteccion\NH4\bin\Debug\EasyInner.dll
+C:\Soluciones\ed proteccion\NH4\bin\Debug\Inner2K.dll
+C:\Soluciones\ed proteccion\NH4\bin\Debug\InnerPendrive.dll
+C:\Soluciones\ed proteccion\NH4\bin\Debug\InnerTCPLib.dll
+C:\Soluciones\ed proteccion\NH4\bin\Debug\Interop.NBioBSPCOMLib.dll
+C:\Soluciones\ed proteccion\NH4\bin\Debug\Microsoft.CSharp.dll
+C:\Soluciones\ed proteccion\NH4\bin\Debug\Microsoft.VisualBasic.dll
+C:\Soluciones\ed proteccion\NH4\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+C:\Soluciones\ed proteccion\NH4\bin\Debug\DLLWEB\BARCOD39.TTF
+C:\Soluciones\ed proteccion\NH4\bin\Debug\DLLWEB\code128.ttf
+C:\Soluciones\ed proteccion\NH4\bin\Debug\DLLWEB\EAN-13.TTF
+C:\Soluciones\ed proteccion\NH4\bin\Debug\DLLWEB\fre3of9x.ttf
+C:\Soluciones\ed proteccion\NH4\bin\Debug\DLLWEB\free3of9.ttf
+C:\Soluciones\ed proteccion\NH4\bin\Debug\BGCOP.CAVTOP.WINFORMS.exe.config
+C:\Soluciones\ed proteccion\NH4\bin\Debug\BGCOP.CAVTOP.WINFORMS.exe
+C:\Soluciones\ed proteccion\NH4\bin\Debug\BGCOP.CAVTOP.WINFORMS.pdb
+C:\Soluciones\ed proteccion\NH4\bin\Debug\BGCOP.CAVTOP.COMMON.dll
+C:\Soluciones\ed proteccion\NH4\bin\Debug\BGCOP.CAVTOP.INNERDEFS.dll
+C:\Soluciones\ed proteccion\NH4\bin\Debug\Telerik.WinControls.dll
+C:\Soluciones\ed proteccion\NH4\bin\Debug\Telerik.WinControls.GridView.dll
+C:\Soluciones\ed proteccion\NH4\bin\Debug\Telerik.WinControls.RadDock.dll
+C:\Soluciones\ed proteccion\NH4\bin\Debug\Telerik.WinControls.Themes.Breeze.dll
+C:\Soluciones\ed proteccion\NH4\bin\Debug\Telerik.WinControls.Themes.Desert.dll
+C:\Soluciones\ed proteccion\NH4\bin\Debug\Telerik.WinControls.Themes.Office2007Black.dll
+C:\Soluciones\ed proteccion\NH4\bin\Debug\Telerik.WinControls.Themes.Office2007Silver.dll
+C:\Soluciones\ed proteccion\NH4\bin\Debug\Telerik.WinControls.Themes.Office2010Black.dll
+C:\Soluciones\ed proteccion\NH4\bin\Debug\Telerik.WinControls.Themes.Office2010Blue.dll
+C:\Soluciones\ed proteccion\NH4\bin\Debug\Telerik.WinControls.Themes.Office2010Silver.dll
+C:\Soluciones\ed proteccion\NH4\bin\Debug\Telerik.WinControls.Themes.TelerikMetro.dll
+C:\Soluciones\ed proteccion\NH4\bin\Debug\Telerik.WinControls.Themes.TelerikMetroBlue.dll
+C:\Soluciones\ed proteccion\NH4\bin\Debug\Telerik.WinControls.Themes.Windows7.dll
+C:\Soluciones\ed proteccion\NH4\bin\Debug\Telerik.WinControls.UI.dll
+C:\Soluciones\ed proteccion\NH4\bin\Debug\TelerikCommon.dll
+C:\Soluciones\ed proteccion\NH4\bin\Debug\TelerikData.dll
+C:\Soluciones\ed proteccion\NH4\bin\Debug\WebCAM.dll
+C:\Soluciones\ed proteccion\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.csproj.AssemblyReference.cache
+C:\Soluciones\ed proteccion\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmInnerMaestro.resources
+C:\Soluciones\ed proteccion\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmConsultaVi.resources
+C:\Soluciones\ed proteccion\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmListadoVehiculosParqueo.resources
+C:\Soluciones\ed proteccion\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmVisitaProgramadaOK.resources
+C:\Soluciones\ed proteccion\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmLimpiaTarjeta.resources
+C:\Soluciones\ed proteccion\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmVehiculo.resources
+C:\Soluciones\ed proteccion\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmTipoVehiculo.resources
+C:\Soluciones\ed proteccion\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmVisitaProgramada.resources
+C:\Soluciones\ed proteccion\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmInnerRuntime.resources
+C:\Soluciones\ed proteccion\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmEmpleado.resources
+C:\Soluciones\ed proteccion\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmParqueos.resources
+C:\Soluciones\ed proteccion\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmVisitaProgramadaOk_2.resources
+C:\Soluciones\ed proteccion\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmVisitante2.resources
+C:\Soluciones\ed proteccion\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmTipoIdentificacion.resources
+C:\Soluciones\ed proteccion\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmMarcacionesVisitantes.resources
+C:\Soluciones\ed proteccion\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmModeloVehiculo.resources
+C:\Soluciones\ed proteccion\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmAsignaParqueo2.resources
+C:\Soluciones\ed proteccion\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmTarjetas.resources
+C:\Soluciones\ed proteccion\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmReporteMarcacionesVisitantes.resources
+C:\Soluciones\ed proteccion\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmHorarioDetail.resources
+C:\Soluciones\ed proteccion\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmListadoEmpleados.resources
+C:\Soluciones\ed proteccion\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmDivisionesEmpresa.resources
+C:\Soluciones\ed proteccion\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmEmpleadoOk.resources
+C:\Soluciones\ed proteccion\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmModeloVehiculo2.resources
+C:\Soluciones\ed proteccion\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmMarcacionesEmpleados.resources
+C:\Soluciones\ed proteccion\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmEmpresa.resources
+C:\Soluciones\ed proteccion\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmAsignaParqueo.resources
+C:\Soluciones\ed proteccion\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmCamara.resources
+C:\Soluciones\ed proteccion\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.Form2.resources
+C:\Soluciones\ed proteccion\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmTipoUsuario.resources
+C:\Soluciones\ed proteccion\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmHorario.resources
+C:\Soluciones\ed proteccion\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.Form3.resources
+C:\Soluciones\ed proteccion\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmUsuario.resources
+C:\Soluciones\ed proteccion\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmEstadosEmpleado.resources
+C:\Soluciones\ed proteccion\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.Form1.resources
+C:\Soluciones\ed proteccion\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmReporteMarcacionesEmpleado.resources
+C:\Soluciones\ed proteccion\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmVehiculoEmpleado.resources
+C:\Soluciones\ed proteccion\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmCargo.resources
+C:\Soluciones\ed proteccion\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmLiberaParqueo.resources
+C:\Soluciones\ed proteccion\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmReporteMarcacionesVehiculo.resources
+C:\Soluciones\ed proteccion\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmVisitante.resources
+C:\Soluciones\ed proteccion\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmPruebaFuentecs.resources
+C:\Soluciones\ed proteccion\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmMarcaVehiculo.resources
+C:\Soluciones\ed proteccion\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.Properties.Resources.resources
+C:\Soluciones\ed proteccion\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmPrincipal.resources
+C:\Soluciones\ed proteccion\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.frmLogIn.resources
+C:\Soluciones\ed proteccion\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.csproj.GenerateResource.cache
+C:\Soluciones\ed proteccion\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.csproj.CoreCompileInputs.cache
+C:\Soluciones\ed proteccion\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.csproj.CopyComplete
+C:\Soluciones\ed proteccion\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.exe
+C:\Soluciones\ed proteccion\NH4\obj\x86\Debug\BGCOP.CAVTOP.WINFORMS.pdb
